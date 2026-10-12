@@ -18,3 +18,4 @@ Este proyecto sigue las directrices del laboratorio práctico:
 - Desarrollo modular mediante ramas (`feature/login`)
 - Revisión de código mediante Pull Requests
 - Resolución de conflictos y gestión de versiones (Releases)
+Cambio hecho en la rama de login
