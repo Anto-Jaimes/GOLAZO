@@ -1,6 +1,6 @@
 # Proyecto: GOLAZO ⚽🎬
 
-Portal seguro de transmisiones deportivas con acceso y login de usuarios (Modificado en feature/login).
+Plataforma oficial de eventos deportivos y entretenimiento multimedia con sistema de acceso y autenticación segura de usuarios CineMax/GOLAZO (Conflicto resuelto exitosamente).
 
 ## Tecnologías utilizadas
 - HTML5
