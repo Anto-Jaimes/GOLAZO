@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOLAZO - Cine y Deportes</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #0f172a; color: #f8fafc; }
+        header { background-color: #1e293b; padding: 20px 40px; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #38bdf8; }
+        header h1 { font-size: 26px; color: #38bdf8; }
+        nav a { color: #f8fafc; text-decoration: none; margin-left: 20px; font-weight: 600; padding: 8px 16px; border-radius: 6px; background: #0284c7; transition: 0.3s; }
+        nav a:hover { background: #0369a1; }
+        .hero { text-align: center; padding: 50px 20px; background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%); }
+        .hero h2 { font-size: 36px; margin-bottom: 10px; }
+        .container { max-width: 1000px; margin: 30px auto; padding: 0 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; }
+        .card { background: #1e293b; border-radius: 12px; padding: 20px; border: 1px solid #334155; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.3); text-align: center; }
+        .card h3 { color: #38bdf8; margin-bottom: 10px; }
+        .badge { display: inline-block; padding: 4px 10px; border-radius: 20px; font-size: 12px; font-weight: bold; margin-bottom: 12px; background: #e11d48; color: white; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>⚽🎬 GOLAZO Entertainment</h1>
+        <nav>
+            <a href="login.html">Iniciar Sesión</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Lo mejor del Cine y el Deporte en un solo lugar</h2>
+        <p>Disfruta de estrenos exclusivos y transmisiones en vivo.</p>
+    </section>
+
+    <div class="container">
+        <h3 style="margin-bottom: 20px; font-size: 22px;">Cartelera y Eventos Destacados</h3>
+        <div class="grid">
+            <div class="card">
+                <span class="badge">Estreno Cine</span>
+                <h3>El Gran Retorno</h3>
+                <p>Acción, Drama y Aventura en alta definición.</p>
+            </div>
+            <div class="card">
+                <span class="badge" style="background: #16a34a;">En Vivo</span>
+                <h3>Final de Campeonato</h3>
+                <p>La máxima fiesta deportiva en directo.</p>
+            </div>
+            <div class="card">
+                <span class="badge">Cine Familiar</span>
+                <h3>Mundo Animado</h3>
+                <p>Diversión para todas las edades.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
