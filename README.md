@@ -1,6 +1,6 @@
 # Proyecto: GOLAZO ⚽🎬
 
-Plataforma interactiva para la gestión y cartelera de eventos deportivos y cine en vivo.
+Plataforma oficial de eventos deportivos y entretenimiento multimedia (Modificado por Colaborador en main).
 
 ## Tecnologías utilizadas
 - HTML5
