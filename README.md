@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Proyecto: GOLAZO ⚽🎬
 
 Plataforma oficial de eventos deportivos y entretenimiento multimedia con sistema de acceso y autenticación segura de usuarios CineMax/GOLAZO (Conflicto resuelto exitosamente).
@@ -19,3 +20,7 @@ Este proyecto sigue las directrices del laboratorio práctico:
 - Revisión de código mediante Pull Requests
 - Resolución de conflictos y gestión de versiones (Releases)
 Cambio hecho en la rama de login
+=======
+# Proyecto: GOLAZO
+Cambio hecho por colaborador en main
+>>>>>>> 9147a767eab0260443fc1fedadbddcc75829295b
