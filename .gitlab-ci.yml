@@ -1,0 +1,22 @@
+stages:
+  - build
+  - test
+
+build_job:
+  stage: build
+  image: node:16
+  script:
+    - npm install
+    - npm run build
+  artifacts:
+    expire_in: 1 week
+    paths:
+      - node_modules/
+
+test_job:
+  stage: test
+  image: node:16
+  script:
+    - npm test
+  dependencies:
+    - build_job

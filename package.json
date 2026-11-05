@@ -1,0 +1,12 @@
+{
+  "name": "app-ci-cd-demo",
+  "version": "1.0.0",
+  "description": "Aplicación de demostración para laboratorio de CI/CD con Jenkins, GitLab CI, CircleCI y Travis CI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Running tests...' && exit 0",
+    "build": "echo 'Building project...'"
+  },
+  "author": "Antonela Jaimes",
+  "license": "MIT"
+}
